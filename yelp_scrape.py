@@ -188,7 +188,7 @@ if __name__ == '__main__':
 
     #get the api key by creating an account on yelp and then clicking on Create App. Fill out
     #form and it will generate a key for you.
-    api_key = 'Gxa0LqhgTU-G3sf9RuA_kt5dHTxgH-m5BNMdM-0TpN56PYRFdEnoj811SGiz9O2-a5TazMI5VpOzzBH91ZMX9p4PJ1K-ALQ0VSnuuL3t4Yt97lrV-3dBdNikmVC3X3Yx'
+    api_key = ''
     ca_cities_df = pd.read_csv(os.path.join(os.getcwd(),'Yelp_Data\\cal_cities_lat_long.csv'))
     ca_cities = ca_cities_df['Name'] + ', CA'
 
